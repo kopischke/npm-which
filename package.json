@@ -6,9 +6,6 @@
   "bin": {
     "npm-which": "bin/npm-which.js"
   },
-  "scripts": {
-    "test": "node test/index.js | tap-spec"
-  },
   "author": "Tim Oxley",
   "license": "MIT",
   "engines": {
@@ -18,13 +15,6 @@
     "commander": "^2.9.0",
     "npm-path": "^2.0.2",
     "which": "^1.2.10"
-  },
-  "devDependencies": {
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.0"
-  },
-  "directories": {
-    "test": "test"
   },
   "repository": {
     "type": "git",
